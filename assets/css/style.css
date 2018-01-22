@@ -1,0 +1,59 @@
+/* ---- Star Trek Font ---- */
+@font-face {
+    font-family: starFleet;
+    src: url(../fonts/Final_Frontier.ttf);
+}
+
+/* ---- GENERAL css ---- */
+
+body {
+	margin-bottom: 60px;
+  	background-image: url(../images/star_trek_wallpaper.png);
+	background-size: 100%;
+	background-position: relative;
+}
+
+h1 {
+	color: #7777ee;
+	font-family: starFleet;
+	float: left;
+}
+
+h2 {
+	color: #7788ee;
+	float: right;
+	margin: 0 0 0 0;
+	font-family: starFleet;
+}
+
+h3, h4 {
+	color: #ffffff;
+	font-family: starFleet;
+}
+
+p {
+	color: #ffffff;
+	font-family: starFleet;
+	font-size: 125%;
+	line-height: 200%;
+	padding-right: 60px;
+	margin: 0 0 0 0;
+}
+
+/* ---- ID css ---- */
+
+#header {
+	width: 960px;
+	height: 115px;
+	padding: 20px 0 20px 0;
+	margin: 0 auto;
+	clear: both;
+}
+
+#game {
+	width: 960px;
+	height: 115px;
+	padding: 20px 0 20px 0;
+	margin: 0 auto;
+	clear: both;
+}
